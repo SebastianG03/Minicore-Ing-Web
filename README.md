@@ -35,10 +35,10 @@ Los requisitos para la implementación son los siguientes:
 
     fastapi dev src/main.py
 ```
-4. Links
+## Links
 - Se puede acceder a la página por este link: http://127.0.0.1:8000/docs 
 - Puede acceder a la página deployada por medio de este link:
 
-5. Métodos de contacto:
+## Métodos de contacto:
 - Email: guamandavid11235@gmail.com
 - Número de contacto: +593 093 982 7471
