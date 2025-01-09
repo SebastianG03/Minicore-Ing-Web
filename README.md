@@ -37,7 +37,7 @@ Los requisitos para la implementación son los siguientes:
 ```
 ## Links
 - Se puede acceder a la página por este link: http://127.0.0.1:8000/docs 
-- Puede acceder a la página deployada por medio de este link:
+- Puede acceder a la página deployada por medio de este link: https://circular-dona-dasedev-cffcdb53.koyeb.app/docs
 
 ## Métodos de contacto:
 - Email: guamandavid11235@gmail.com
