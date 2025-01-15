@@ -68,7 +68,7 @@ def calculate_spents_by_dates(begin: date, end: date, session: Session):
         if total_spent.id_departamento not in spents_by_department:
             spents_by_department.update({total_spent.id_departamento: total_spent})
         else:
-            spents_by_department[total_spent.id_departamento].total_spent += total_spent.gasto_total
+            spents_by_department[total_spent.id_departamento].gasto_total += total_spent.gasto_total
     
     for spent in spents_by_department.values():
         department = session.get(DepartmentTable, spent.id_departamento)
