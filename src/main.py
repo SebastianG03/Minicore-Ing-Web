@@ -7,9 +7,12 @@ from src.application.controllers.departments_controller import dep_router
 from src.application.controllers.employees_controller import emp_router
 from src.application.controllers.spents_controller import spents_router
 
+from src.infraestructure.data.test_data import generate_data
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     create_tables()
+    generate_data()
     yield
 
 def create_app():

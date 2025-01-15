@@ -5,7 +5,6 @@ from sqlmodel import Session, select
 
 from src.domain.entities.departments import DepartmentBase, DepartmentTable
 
-
 def get_departments(
     session: Session, 
     offset: int = 0, 
